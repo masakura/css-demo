@@ -2,6 +2,35 @@ body {
   max-width: 40rem;
 }
 
+/* Navigation */
+.navigation-menu {
+  background-color: #222;
+  color: #eee;
+}
+
+.navigation-menu:after,
+.navigation-menu:before {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.navigation-menu-item {
+  list-style: none;
+  float: right;
+}
+
+.navigation-menu-item:hover {
+  background-color: #eee;
+  color: #222;
+}
+
+.navigation-menu-item a {
+  color: inherit;
+  display: block;
+  padding: 0.5rem;
+}
+
 /* About/Carriage */
 .list {
   padding: 0.5rem 0.5rem 0.5rem 2rem;
