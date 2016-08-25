@@ -2,6 +2,37 @@ body {
   max-width: 40rem;
 }
 
+/* Navigation */
+ul {
+  padding-left: 0;
+  background-color: #222;
+  color: #eee;
+}
+
+ul:before, ul:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+li {
+  float: right;
+  list-style: none;
+  padding: 0;
+  margin: 0 !important;
+}
+
+li:hover {
+  background-color: #eee;
+  color: #444;
+}
+
+li a {
+  padding: 0.5rem;
+  color: inherit;
+  display: block;
+}
+
 /* About/Carriage */
 ul.carriage-list {
   padding: 0.5rem 0.5rem 0.5rem 2rem;
