@@ -3,12 +3,12 @@ body {
 }
 
 /* About/Carriage */
-ul.carriage-list {
+.list {
   padding: 0.5rem 0.5rem 0.5rem 2rem;
   background-color: #eee;
   border-radius: 0.5rem;
 }
 
-li {
+.list-item {
   margin: 0.5rem;
 }
